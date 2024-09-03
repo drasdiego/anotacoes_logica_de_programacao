@@ -28,7 +28,7 @@ console.log(numero3); // Saída: 2
 
 // Incremento prefixado
 console.log(++numero3); // Saída: 3
-// ++numero3 decrementa e mostra o valor antes da expressão ser avaliada. 
+// ++numero3 incrementa e mostra o valor antes da expressão ser avaliada. 
 
 // Após incrementar numero3 novamente
 numero3++; // Incrementa o valor de numero3 em mais 1
@@ -49,7 +49,7 @@ decremento--; // Decrementa o valor de decremento em mais 1
 decremento--; // Decrementa o valor de decremento em mais 1
 decremento--; // Decrementa o valor de decremento em mais 1
 console.log(decremento); // Saída: 5
-// Decremento múltiplo: decrementar o valor 5 vezes, resultando em 5
+// Decremento múltiplo: decrementa o valor 5 vezes, resultando em 5
 
 // Uso combinado de prefixado e pós-fixado
 console.log(--decremento); // Saída: 4
@@ -62,6 +62,9 @@ console.log(decremento); // Saída: 3
 // Exibe o valor final após o decremento pós-fixado, que é 3
 
 // Comparando igualdade
+let nomeArmazenado = "Ines";
+let nomeDigitado = "Gabriel";
+
 console.log(nomeArmazenado == nomeDigitado); // Saída: false
 // == compara se os valores são iguais. Neste caso, "Ines" é diferente de "Gabriel", então o resultado é false
 
@@ -74,3 +77,21 @@ console.log(nomeArmazenado > nomeDigitado); // Saída: false
 
 console.log(nomeArmazenado < nomeDigitado); // Saída: true
 // < compara se o valor da esquerda é menor que o da direita. Comparando strings, "Ines" é menor que "Gabriel"
+
+let numeroMaior = 10;
+let numeroMenor = 5; 
+
+console.log(numeroMaior > numeroMenor); // Saída: true
+// > compara se o valor da esquerda é maior que o da direita. Aqui, 10 é maior que 5, então o resultado é true
+
+console.log(numeroMaior < numeroMenor); // Saída: false
+// < compara se o valor da esquerda é menor que o da direita. Aqui, 10 não é menor que 5, então o resultado é false
+
+// Comparação após atualização de numeroMenor
+numeroMenor = 50; 
+
+console.log(numeroMaior < numeroMenor); // Saída: true
+// < compara se o valor da esquerda é menor que o da direita. Aqui, 10 é menor que 50, então o resultado é true
+
+console.log(numeroMaior > numeroMenor); // Saída: false
+// > compara se o valor da esquerda é maior que o da direita. Aqui, 10 não é maior que 50, então o resultado é false
