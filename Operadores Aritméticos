@@ -95,3 +95,12 @@ console.log(numeroMaior < numeroMenor); // Saída: true
 
 console.log(numeroMaior > numeroMenor); // Saída: false
 // > compara se o valor da esquerda é maior que o da direita. Aqui, 10 não é maior que 50, então o resultado é false
+
+let resultadoComparacao = numeroMaior > numeroMenor; 
+
+console.log(resultadoComparacao); // Saída: false
+// Armazena o resultado da comparação em resultadoComparacao e exibe. Aqui, 10 não é maior que 50, então o resultado é false
+
+console.log(numeroMaior > numeroMenor); // Saída: false
+// Reexibe o resultado da comparação diretamente. Aqui, 10 não é maior que 50, então o resultado é false
+
