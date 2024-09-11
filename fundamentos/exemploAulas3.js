@@ -1,19 +1,19 @@
 const nome = "Ana";
-console.log(nome);
+console.log(nome); // Saída: "Ana"
 
-celular = 5;
-console.log(celular);
+let celular = 5;
+console.log(celular); // Saída: 5
 
 let x = 10;
-console.log(x);
+console.log(x); // Saída: 10
 
-// Exemplo importância do bloco 
+// Exemplo de importância do bloco
 
-let nome = "José"; // Variável global (dentro do bloco principal)
+let nomeGlobal = "José"; // Variável global
 
 {
-    let nome = "Gabriel"; // Aqui você está alterando a variável global
-    console.log(nome); // Saída: "Gabriel"
+    let nomeLocal = "Gabriel"; // Variável local dentro do bloco
+    console.log(nomeLocal); // Saída: "Gabriel"
 }
 
-console.log(nome); // Saída: "Gabriel"
+console.log(nomeGlobal); // Saída: "José"
