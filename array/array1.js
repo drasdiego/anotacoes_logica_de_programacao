@@ -58,3 +58,36 @@ console.log(nome); // Exibe [ 'Alexandre', 'Gabriel', 'Gabriela', 'Cleiton', 'In
 // Remove o último elemento do array
 nome.pop(); 
 console.log(nome); // Exibe [ 'Alexandre', 'Gabriel', 'Gabriela', 'Cleiton' ]
+
+// Remove o primeiro elemento do array
+nome.shift(); 
+console.log(nome); // Exibe [ 'Gabriel', 'Gabriela', 'Cleiton' ]
+
+// Verifica se o elemento "Rafael" está presente no array 'nome'
+// O resultado será false, pois "Rafael" não está no array
+console.log(nome.includes("Rafael")); // Exibe false
+
+// Criação e exibição de um novo array 'valores'
+let valores = [10, 15, 12, 20, 50];
+
+// Exibe o array 'valores' no console
+console.log(valores); // Exibe [10, 15, 12, 20, 50]
+
+// Exibe o número de elementos no array 'valores'
+console.log(valores.length); // Exibe 5
+
+// Exibe o elemento no índice 2 do array 'valores'
+console.log(valores[2]); // Exibe 12
+
+// Adiciona um novo elemento na posição índice 5 do array 'valores'
+// Como o índice 5 está fora do tamanho atual do array (que tem 5 elementos), 
+// o JavaScript preenche os índices ausentes com 'undefined'
+
+valores[5] = "teste";
+console.log(valores); // Exibe [10, 15, 12, 20, 50, "teste"]
+
+// Atualiza o valor no índice 5 para "60"
+// A posição índice 5 agora contém o valor "60", substituindo "teste"
+
+valores[5] = "60";
+console.log(valores); // Exibe [10, 15, 12, 20, 50, "60"]
