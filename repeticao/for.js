@@ -12,6 +12,8 @@ for (let quantidade = 0; quantidade <= 10; quantidade++) {
     console.log("Quantidade atual: " + quantidade); // Exibe a quantidade atual em cada iteração
 }
 
+console.log(""); // Linha em branco
+
 // Exemplo 2: Loop que imprime "Repetindo" enquanto a hora for menor ou igual a 22
 let hora = 20;
 for (let i = 0; hora <= 22; i++) {
@@ -19,11 +21,15 @@ for (let i = 0; hora <= 22; i++) {
     hora++; // Incrementa a hora em 1 a cada iteração
 }
 
+console.log(""); // Linha em branco
+
 // Exemplo 3: Loop que imprime valores de 0 a 100
 for (let valor = 0; valor <= 100; valor++) {
     console.log("O valor é " + valor); // Exibe o valor atual em cada iteração
     // Nota: O incremento do valor dentro do loop é redundante porque o valor já é incrementado na declaração do loop
 }
+
+console.log(""); // Linha em branco
 
 // Exemplo 4: Loop que imprime valores de 0 a 100, pulando de 10 em 10
 for (let valor = 0; valor <= 100; valor += 10) {
@@ -31,10 +37,14 @@ for (let valor = 0; valor <= 100; valor += 10) {
     // Nota: O incremento do valor dentro do loop é ajustado na declaração do loop para adicionar 10 a cada iteração.
 }
 
+console.log(""); // Linha em branco
+
 // Exemplo 5: Correção do loop que imprime valores de 0 a 100, pulando de 10 em 10
 for (let valor2 = 0; valor2 <= 100; valor2 += 10) {
     console.log(`O valor2 é ${valor2}`); // Corrigido para exibir o valor2 corretamente
 }
+
+console.log(""); // Linha em branco
 
 // Exemplo 6: Atualização do valor da compra com e sem cupom
 let valorCompra = 100; 
@@ -52,4 +62,6 @@ if (desejaUsarCupom) {
     console.log("O valor da compra atualizado é " + valorCompra); // Exibe o valor atualizado da compra
 }
 
-//Fim de exemplos
+console.log(""); // Linha em branco
+
+// Fim de exemplos

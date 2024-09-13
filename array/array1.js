@@ -12,9 +12,6 @@ console.log(nome[0]); // Exibe "Gabriel" (elemento no índice 0)
 console.log(nome[1]); // Exibe "Gabriela" (elemento no índice 1)
 console.log(nome[2]); // Exibe "Gabriella" (elemento no índice 2)
 
-// Elementos: Itens dentro do array, ou seja, os elementos do array são acessados por meio desses índices.
-// Índices: Posições dos elementos no array (começam do zero), ou seja, índices são baseados em zero e contínuos
-
 // Exibe o array completo no console
 // Quantidade de elementos  1           2            3
 // Índices                   0           1            2
@@ -82,14 +79,27 @@ console.log(valores[2]); // Exibe 12
 // Adiciona um novo elemento na posição índice 5 do array 'valores'
 // Como o índice 5 está fora do tamanho atual do array (que tem 5 elementos), 
 // o JavaScript preenche os índices ausentes com 'undefined'
-
 valores[5] = "teste";
 console.log(valores); // Exibe [10, 15, 12, 20, 50, "teste"]
 
 // Atualiza o valor no índice 5 para "60"
 // A posição índice 5 agora contém o valor "60", substituindo "teste"
-
 valores[5] = "60";
 console.log(valores); // Exibe [10, 15, 12, 20, 50, "60"]
 
-//Fim de exemplos
+// Criando função
+
+// Função para adicionar ou atualizar um valor no array
+function adicionaValor(indice, valor) {
+    // Atualiza o valor no índice especificado
+    valores[indice] = valor;
+
+    // Exibe o array atualizado no console
+    console.log(valores);
+
+    // Retorna o valor atualizado no índice especificado
+    return valores[indice];
+}
+
+// Testa a função e exibe o valor retornado
+console.log(adicionaValor(6, "mouse")); // Adiciona "mouse" no índice 6

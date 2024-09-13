@@ -1,9 +1,9 @@
 // Variáveis e Constantes 
 
-const taxaCartao = 1;
-let camisa = 10; 
-let sapato = 20;
-let calca = 30;
+const taxaCartao = 1; // Constante para a taxa do cartão
+let camisa = 10; // Preço da camisa
+let sapato = 20; // Preço do sapato
+let calca = 30; // Preço da calça (não utilizado no exemplo)
 
 // Podemos inserir textos que antecedem os resultados, para concatenar os valores que serão mostrados.
 
@@ -18,4 +18,6 @@ console.log("Soma das variáveis total da compra + taxa do cartão:", totalCompr
 totalCompra = camisa + sapato + taxaCartao; // totalCompra será 31
 console.log("Somando as 3 variáveis (camisa, sapato e taxa) =", totalCompra);  // Saída: 31
 
-//Fim de exemplos
+console.log(""); // Linha em branco
+
+// Fim de exemplos

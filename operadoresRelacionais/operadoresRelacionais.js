@@ -7,9 +7,13 @@ let numero = 5;
 numero = numero + 5; 
 console.log(numero); // 10
 
+console.log(""); // Linha em branco
+
 // Utilizando o operador de atribuição +=
 numero += 5; // Equivalente a numero = numero + 5
 console.log(numero); // 15
+
+console.log(""); // Linha em branco
 
 // Utilizando operadores de atribuição para diferentes operações
 console.log(numero -= 2); // Subtração: numero = numero - 2; Resultado: 13
@@ -19,4 +23,6 @@ console.log(numero %= 2); // Módulo: numero = numero % 2; Resultado: 1
 console.log(numero **= 2); // Exponenciação: numero = numero ** 2; Resultado: 1
 console.log(numero); // Exibindo o valor final de numero; Resultado: 1
 
-//Fim de exemplos
+console.log(""); // Linha em branco
+
+// Fim de exemplos

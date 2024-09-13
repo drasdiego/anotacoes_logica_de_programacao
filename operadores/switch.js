@@ -3,15 +3,15 @@
 // Ele é ideal para seleção de multiplos valores 
 
 /*
-
 O switch() é uma estrutura de 
 controle de fluxo em linguagens de programação como JavaScript, usada para tomar decisões com base no valor de uma expressão. Ele permite comparar o valor de uma variável ou expressão com várias opções (conhecidas como "casos" ou cases) e executar um bloco de código correspondente ao primeiro caso que coincida.
 
 Conceito básico do switch()
 Em vez de usar vários if...else if...else, o switch() pode simplificar o código, tornando-o mais legível 
 quando se trata de várias comparações de igualdade com uma única variável.
-
 */
+
+console.log(""); // Linha em branco
 
 let nota = 5;
 
@@ -29,6 +29,8 @@ switch(nota) {
     default:
         console.log("Nota não reconhecida"); // Este bloco será executado se nenhum dos casos anteriores for atendido
 }
+
+console.log(""); // Linha em branco
 
 let nota2 = 10; // A variável nota2 é avaliada no segundo switch
 let DesejaReceberUmPresente = true; // Flag para decidir se um presente deve ser dado
@@ -60,6 +62,8 @@ switch(nota2) {
         console.log(`O valor "${nota2}" informado é inválido`); // Este bloco será executado se nenhum dos casos anteriores for atendido
 }
 
+console.log(""); // Linha em branco
+
 // Switch com horas
 
 let hora = 10;
@@ -75,4 +79,6 @@ switch (hora) {
         break;
 }
 
-//Fim de exemplos
+console.log(""); // Linha em branco
+
+// Fim de exemplos

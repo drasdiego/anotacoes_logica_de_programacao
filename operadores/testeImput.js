@@ -6,10 +6,14 @@ const rl = readline.createInterface({
     output: process.stdout
 });
 
+console.log(""); // Linha em branco
+
 // Função que retorna uma promessa para o input do usuário
 function questionAsync(query) {
     return new Promise(resolve => rl.question(query, resolve));
 }
+
+console.log(""); // Linha em branco
 
 // Estoque de produtos
 let qtdCaneta = 30;
@@ -23,6 +27,8 @@ let caderno = 9.90;
 let lapis = 1.00;
 let borracha = 0.50;
 
+console.log(""); // Linha em branco
+
 (async function() {
     try {
         // Solicitando a quantidade comprada de cada produto
@@ -30,6 +36,8 @@ let borracha = 0.50;
         let qtdCompradaCaderno = parseInt(await questionAsync("Quantos cadernos você quer comprar? "));
         let qtdCompradaLapis = parseInt(await questionAsync("Quantos lápis você quer comprar? "));
         let qtdCompradaBorracha = parseInt(await questionAsync("Quantas borrachas você quer comprar? "));
+
+        console.log(""); // Linha em branco
 
         // Verificando se há estoque suficiente
         if (qtdCompradaCaneta > qtdCaneta || qtdCompradaCaderno > qtdCaderno || qtdCompradaLapis > qtdLapis || qtdCompradaBorracha > qtdBorracha) {
@@ -44,6 +52,8 @@ let borracha = 0.50;
             qtdCaderno -= qtdCompradaCaderno;
             qtdLapis -= qtdCompradaLapis;
             qtdBorracha -= qtdCompradaBorracha;
+
+            console.log(""); // Linha em branco
 
             // Exibindo o estoque atualizado
             console.log("Estoque atualizado:");
@@ -61,4 +71,6 @@ let borracha = 0.50;
     }
 })();
 
-//Fim de exemplos
+console.log(""); // Linha em branco
+
+// Fim de exemplos
