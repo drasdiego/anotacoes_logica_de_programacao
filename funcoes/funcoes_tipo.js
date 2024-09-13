@@ -36,3 +36,5 @@ function exibeResultado2(numero1, numero2) {
 exibeResultado2(5, 5);  // Exibe "O resultado da soma é 10"
 exibeResultado2(10, 5); // Exibe "O resultado da soma é 15"
 exibeResultado2(15, 5); // Exibe "O resultado da soma é 20"
+
+//Fim de exemplos

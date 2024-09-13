@@ -22,3 +22,4 @@ console.log(5 <= 12); // true, 5 é menor ou igual a 12
 console.log(5 != 5);  // false, 5 não é diferente de 5
 console.log(5 !== "5"); // true, 5 é diferente de "5" (tipo diferente (Numero x "Texto"))
 
+//Fim de exemplos

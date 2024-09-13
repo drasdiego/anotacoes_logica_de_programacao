@@ -116,3 +116,5 @@ console.log(numeroMaior > numeroMenor); // Saída: false
 let numero4 = 15;
 let numero5 = 25;
 console.log(numero4 + numero5); // Saída: 40
+
+//Fim de exemplos

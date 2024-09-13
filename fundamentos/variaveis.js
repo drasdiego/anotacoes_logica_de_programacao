@@ -33,3 +33,5 @@ console.log(endereco2); // Imprime: São Paulo
 // Atualizando o valor de uma variável
 endereco = "Distrito Federal";
 console.log(endereco); // Imprime: Distrito Federal
+
+//Fim de exemplos

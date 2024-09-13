@@ -74,3 +74,5 @@ switch (hora) {
         console.log(`A hora "${hora}" informada não é válida, informe uma hora correta.`);
         break;
 }
+
+//Fim de exemplos

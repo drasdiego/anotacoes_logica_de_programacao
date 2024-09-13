@@ -111,3 +111,5 @@ if (notaAluno >= 5) {
 } else {
     console.log("Infelizmente, você foi reprovado(a)");
 }
+
+//Fim de exemplos

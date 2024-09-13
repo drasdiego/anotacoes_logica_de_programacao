@@ -35,3 +35,4 @@ let maiorDeIdade = true;
 console.log("O valor da variavel é " + !maiorDeIdade);
 
 
+//Fim de exemplos

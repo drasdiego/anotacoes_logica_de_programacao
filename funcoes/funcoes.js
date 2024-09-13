@@ -32,3 +32,5 @@ function mostraDados2() {
 }
 
 mostraDados2(); // Chamada da função "mostraDados2", que executa o bloco de código acima.
+
+//Fim de exemplos

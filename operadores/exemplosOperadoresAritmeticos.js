@@ -25,6 +25,6 @@ let qtdCompradaCaderno = caderno*3;
 console.log(qtdCompradaCaderno)
 console.log(qtdCompradaCaneta)
 
-
+//Fim de exemplos
 
 

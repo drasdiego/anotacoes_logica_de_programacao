@@ -7,3 +7,5 @@ console.log("Olá mundo")
     console.log("Olá Setença 3") 
     
 }
+
+//Fim de exemplos

@@ -32,5 +32,5 @@ let idadeCalculada = ano - anoNascimento;
 let validarIdadeAno = idadeCalculada >= 18 ? "Pode entrar!" : "Não pode entrar!";
 console.log(validarIdadeAno, "(idade:", idadeCalculada, ")"); // Saída: "Pode entrar! (idade: 33)"
 
-
+//Fim de exemplos
 

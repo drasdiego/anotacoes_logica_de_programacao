@@ -32,3 +32,5 @@ let saldoSuficiente = false;
 
 console.log(maiorDeIdade); // Imprime: false
 console.log(saldoSuficiente); // Imprime: false
+
+//Fim de exemplos

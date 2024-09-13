@@ -75,3 +75,5 @@ function raizQuadrada(numero) {
 }
 
 raizQuadrada(4); // Exibe "A raiz quadrada de 4 é 2"
+
+//Fim de exemplos

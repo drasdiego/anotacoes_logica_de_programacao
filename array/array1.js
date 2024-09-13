@@ -91,3 +91,5 @@ console.log(valores); // Exibe [10, 15, 12, 20, 50, "teste"]
 
 valores[5] = "60";
 console.log(valores); // Exibe [10, 15, 12, 20, 50, "60"]
+
+//Fim de exemplos

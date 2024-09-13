@@ -18,3 +18,5 @@ console.log(numero /= 2); // Divisão: numero = numero / 2; Resultado: 13
 console.log(numero %= 2); // Módulo: numero = numero % 2; Resultado: 1
 console.log(numero **= 2); // Exponenciação: numero = numero ** 2; Resultado: 1
 console.log(numero); // Exibindo o valor final de numero; Resultado: 1
+
+//Fim de exemplos

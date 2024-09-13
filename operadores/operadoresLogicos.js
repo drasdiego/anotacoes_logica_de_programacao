@@ -23,3 +23,5 @@ let bicicletaVermelha = true;
 // Verifica se temos pelo menos uma bicicleta
 let temBicicleta = bicicletaAzul || bicicletaVermelha;
 console.log("Tem bicicleta:", temBicicleta); // Saída: true
+
+//Fim de exemplos

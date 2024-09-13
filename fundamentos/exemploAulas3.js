@@ -17,3 +17,5 @@ let nomeGlobal = "José"; // Variável global
 }
 
 console.log(nomeGlobal); // Saída: "José"
+
+//Fim de exemplos

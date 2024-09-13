@@ -51,3 +51,5 @@ if (desejaUsarCupom) {
     valorCompra += 2.50; // Ajuste adicional no valor da compra
     console.log("O valor da compra atualizado é " + valorCompra); // Exibe o valor atualizado da compra
 }
+
+//Fim de exemplos

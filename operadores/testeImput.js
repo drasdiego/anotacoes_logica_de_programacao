@@ -60,3 +60,5 @@ let borracha = 0.50;
         rl.close();
     }
 })();
+
+//Fim de exemplos

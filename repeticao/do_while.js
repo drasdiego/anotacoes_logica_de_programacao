@@ -16,3 +16,5 @@ do {
     console.log("Executou " + contador + " vezes."); // Exibe a mensagem com o valor atual do contador
     contador++; // Incrementa o valor do contador
 } while (contador <= 3); // Continua executando o loop enquanto contador for menor ou igual a 3
+
+//Fim de exemplos

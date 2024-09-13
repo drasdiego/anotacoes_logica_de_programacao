@@ -17,4 +17,5 @@ console.log("A soma dos números " + numero1 + " e " + numero2 + " é igual a: "
 
 //Templates Strings
 
+//Fim de exemplos
  

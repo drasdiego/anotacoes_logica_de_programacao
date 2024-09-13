@@ -17,3 +17,5 @@ console.log("Soma das variáveis total da compra + taxa do cartão:", totalCompr
 // Outra opção de soma
 totalCompra = camisa + sapato + taxaCartao; // totalCompra será 31
 console.log("Somando as 3 variáveis (camisa, sapato e taxa) =", totalCompra);  // Saída: 31
+
+//Fim de exemplos
